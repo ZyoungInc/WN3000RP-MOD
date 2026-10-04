@@ -1,0 +1,9 @@
+# Device dumps and backups may contain Wi-Fi and management credentials.
+logs/*
+!logs/README.md
+firmware/*
+!firmware/README.md
+
+# Local Python artifacts.
+__pycache__/
+*.pyc
